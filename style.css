@@ -1,0 +1,342 @@
+:root {
+    --yellow: #ffbe33;
+    --dance: 'Dancing Script', cursive;
+    --navy: #222831;
+    --sans: "Open Sans", sans-serif
+}
+
+.cr {
+    color: white !important;
+}
+
+.home {
+    background-image: url(task-images/hero-bg\ \(1\).jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home .logo {
+    font-family: var(--dance);
+    font-size: 32px;
+    color: white;
+}
+
+.home .ad {
+    padding: 0;
+}
+
+.home .ad .card {
+    background-color: transparent !important;
+}
+
+.home .ad h1 {
+    font-family: var(--dance);
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.home .ad p {
+    font-size: 14px;
+    font-family: var(--sans);
+    margin-bottom: 15px;
+}
+
+.home .ad .carousel-item button {
+    margin: 15px 0 !important;
+}
+
+.home .carousel {
+    position: relative !important;
+}
+
+.home .carousel-indicators button {
+    opacity: 100;
+    border-radius: 50% !important;
+    width: 20px !important;
+    height: 1px !important;
+    background-clip: border-box;
+    padding: 0 !important;
+}
+.navbar-nav .nav-link.active {
+  color: #ffc107 !important; 
+}
+
+.home .carousel-indicators .active {
+    background-color: var(--yellow);
+}
+
+.home .carousel-indicators {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    top: 400px;
+    margin: 10px 0 !important;
+}
+
+button {
+    border-radius: 30px !important;
+    padding: 5px 20px !important;
+    font-family: var(--sans) !important;
+}
+
+button:hover {
+    background-color: #e69c00 !important;
+    border-color: transparent !important;
+}
+
+.custom-navbar .nav-link:hover {
+    color: var(--yellow) !important;
+}
+
+.menu .sales {
+    padding-top: 45px;
+    padding-bottom: 90px !important;
+    font-family: var(--dance);
+}
+
+.menu .sales .card {
+    background-color: var(--navy);
+}
+
+.menu .sales .card .img-box {
+    width: 30% !important;
+}
+
+.menu .sales .card img {
+    transition-duration: 0.2s;
+}
+
+.menu .sales .card:hover img {
+    transform: scale(1.07);
+}
+
+.menu .h2 {
+    font-size: 40px;
+    font-family: var(--dance);
+}
+
+.menu .filter li {
+    font-family: var(--sans);
+}
+
+.menu .filter li button:hover {
+    background-color: #ffc107; 
+}
+
+.menu .food .card {
+    border-radius: 30px !important;
+}
+
+.menu .food img {
+    transform: scale(0.6);
+    transition-duration: 0.3s;
+}
+
+.menu .food .img-box {
+    background-color: #f1f2f3;
+    border-bottom-left-radius: 30px !important;
+    transform: scale(1.01);
+    height: 230px;
+}
+
+.menu .food .card {
+    background-color: var(--navy) !important;
+    height: 450px;
+}
+
+.menu .food .card:hover img {
+    transform: scale(0.65) !important;
+}
+
+.menu .food .card-body a {
+    background-color: var(--yellow);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 4px;
+}
+.filter .nav-link {
+  color: #000; 
+  transition: 0.3s;
+}
+
+.filter .nav-link:hover {
+  color: #ffc107; 
+}
+/*
+.filter .btn-dark {
+  transition: 0.3s;
+}
+
+.filter .btn-dark:hover {
+  background-color: #ffc107; 
+  color: #000; 
+}*/
+
+.menu .v {
+    padding: 10px 55px !important;
+}
+
+.about {
+    padding: 45px;
+    background-color: var(--navy);
+}
+
+.about .container+div {
+    gap: 5px !important;
+}
+
+.about h2 {
+    font-family: var(--dance);
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 !important;
+}
+
+.about p {
+    font-family: var(--sans);
+    margin-top: 15px !important;
+    line-height: 1.5;
+}
+
+.about button {
+    margin-top: 15px !important;
+}
+
+.book {
+    padding: 45px 0 90px 0;
+}
+
+.book h2 {
+    font-family: var(--dance);
+    font-weight: bold;
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+form>div {
+    margin-bottom: 25px;
+}
+
+.book img {
+    height: 330px !important;
+    width: 100% !important;
+    border-radius: 3%;
+}
+
+.customers {
+    padding-bottom: 90px;
+}
+.customers h2{
+    font-family: var(--dance);
+}
+.customers .details {
+    background-color: var(--navy);
+    padding: 25px 25px 15px;
+    border-radius: 10px;
+}
+
+.customers .details h4 {
+    font-size: 18px !important;
+    font-family: var(--sans);
+}
+
+.customers .details p {
+    font-size: 15px;
+    font-family: var(--sans);
+}
+
+.customers button {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+.customers button:hover {
+    background-color: #ffc107 !important;
+}
+
+.customers .img-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.customers .img-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.customers .img-box::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #ffc107;
+}
+
+.footer {
+    background-color: var(--navy) !important;
+    padding: 75px 0 40px 0;
+}
+
+.footer h4 {
+    font-family: var(--dance);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer .log {
+    font-family: var(--dance);
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px !important;
+}
+
+.footer .cnt a {
+    margin: 5px 0;
+    font-family: var(--sans);
+}
+
+.footer .top p {
+    color: #D8D8D8 !important;
+    margin-bottom: 16px !important;
+}
+
+.footer .top .logo i {
+    background-color: white;
+    color: var(--navy) !important;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px 0;
+    width: 28px;
+    font-size: 18px;
+    margin: 0 2.5px;
+}
+
+.footer .bottom {
+    margin-top: 25px;
+}
+
+.footer .top .logo a:hover i {
+    color: #ffbe33 !important;
+}
+
+.footer .cnt a:hover i {
+    color: #ffbe33 !important;
+}
+
+.footer .cnt a:hover span {
+    color: #ffbe33 !important;
+}
+
+.footer p {
+    font-family: var(--sans);
+}
